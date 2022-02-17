@@ -48,14 +48,14 @@ fizzBuzz100();
 //  3. Напишите функцию которая принимает 1 аргумент - массив
 //  И возвращает новый массив содержащий типы значений переменных
 //  */
-function task3(myArray) {
+function task3() {
   Const myArray = [1, null, undefined, 'str', {}, [], function() { }];
   return [if (typeof 1) = 'number', if (typeof null) = 'object', if (typeof undefined) = undefined,
    if (typeof 'str') = 'string', if (typeof {}) = 'object',
     if(typeof []) = 'object', if(typeof function(){}) = 'function'
   ]
 }
-task3(Array);
+task3(myArray);
 console.log(task3);
 
 // // typeof
@@ -70,5 +70,6 @@ console.log(task3);
 //  тогда добавляет данному объекту свойство unknownAge: true
 cons superArray = [{}]
 function () {
+  if(typeof age )
 
 }
