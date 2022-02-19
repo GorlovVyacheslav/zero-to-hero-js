@@ -4,11 +4,16 @@
  И проверяет какой тип данных содержит свойство age, если age NaN,
  тогда добавляет данному объекту свойство unknownAge: true
  */
-// const super1 = Array[{}]
-// function solution(super1) {
-//   for (let i = 0; i < super1.lenght; i++;)
-//   typeof.age
-// }
+const super1 = [{}]
+function solution(super1) {
+  for (let i = 0; i < super1.length; i++){
+    const item = super1[i]
+    console.log(typeof item)
+const age1 = typeof Item.age
+  }
+      if (isNaN (age1) ){super1.unknownAge = true}
+}
+console.log(super1);
 
 let listOfCompanys = [
   {
@@ -457,12 +462,11 @@ return result = result;
  */
 
 function createHashTags(arr) {
+  const arr =array.forEach(_id,company); 
   return {
-    id: arr._id
-company: arr.company
+    _id:company
   };
 }
-
 console.log(createHashTags(listOfCompanys));
 // {"584babb6eeb4137cf14c37a3":"ASIMILINE", '584babb6eeb4137cf14c37a3':'Company2', }
 
@@ -493,14 +497,14 @@ console.log(uniqueElements([1, 1, 2, 3, 3])); // [1, 2, 3]
 //  * implement array method filter with function
 //  * Реализуй метод filter при помощи функции myCustomfilter(arr, callback)
 //  * Ты не можешь использовать внутри функции существутющий метод ([].filter)
-function myCustomfilter(arr, callback)
-{
-   for (let i = 0; i < arr.length; i++) {
-    callback(arr[i]);
-  }
-};
-const newfilter = arr.filter(function(number) {
-  return number > 0;
+// function myCustomfilter(arr, callback)
+// {
+//    for (let i = 0; i < arr.length; i++) {
+//     callback(arr[i]);
+//   }
+// };
+// const newfilter = arr.filter(function(number) {
+//   return number > 0;
 
 
-  console.log(myCustomfilter(12,45))
+//   console.log(myCustomfilter(12,45))
